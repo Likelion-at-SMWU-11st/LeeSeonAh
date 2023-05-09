@@ -1,3 +1,4 @@
+#1 회원가입 수행 여부
 print("===============================")
 print("회원가입")
 print("===============================")
@@ -11,10 +12,34 @@ while not register:
     answer=answer.lower()
 
     if answer=='y':
+        #2 회원정보 입력 및 저장
         register=True
         print("===============================")
         print("회원가입이 진행됩니다.")
         print("===============================")
+
+        users=[]
+        
+        while True:
+            user={}
+            username=input("ID: ")
+            while True:
+                pwd=input("PWD: ")
+                pwd2=input("PWD 확인: ")
+                if pwd==pwd2:
+                    break
+                else:
+                    print("패스워드가 일치하지 않습니다. ")
+            name=input("이름: ")
+            while True:
+                birth=input("생년월일(6자리): ")
+                if len(birth)==6:
+                    break
+                else:
+                    print("생년월일 입력값이 올바르지 않습니다.")
+            email=input("이메일: ")
+
+
     elif answer=='n':
         print("===============================")
         print("회원가입이 취소됩니다.")
