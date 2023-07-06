@@ -11,7 +11,7 @@ function getClock(){
     const minute=String(nowDate.getMinutes()).padStart(2,"0");
     const second=String(nowDate.getSeconds()).padStart(2,"0");
 
-    clockDate.innerText=`${year}년 ${month}월 ${day}일`;
+    clockDate.innerText=`현재 시각은 ${year}년 ${month}월 ${day}일`;
     clockTime.innerText=`${hour}:${minute}:${second}`;
     
 }
