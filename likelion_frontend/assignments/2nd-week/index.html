@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>프론트엔드 2주차 과제</title>
+
+</head>
+
+<body>
+    <div id="clock-block">
+        <p id="clock-date"></p>
+        <p id="clock-time"></p>
+    </div>
+
+    <div class="todo-container">
+
+        <div id="todo-add-block">
+            <h2>✏️ 투두리스트 추가하기</h2>
+            <form id=todo-form>
+                <input required minlength="0" type="text" placeholder=" 할 일을 입력히세요">
+                <button>➕</button>
+            </form>
+        </div>
+
+        <div id=todo-list-block>
+            <h2>📝 선아의 할 일</h2>
+            <form id=todo-list>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="js/clock.js"></script>
+    <script src="js/todo.js"></script>
+</body>
+
+</html>

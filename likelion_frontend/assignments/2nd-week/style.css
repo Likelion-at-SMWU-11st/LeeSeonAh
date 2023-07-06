@@ -1,0 +1,56 @@
+#clock-block {
+    margin: 10% 0 30px 0;
+}
+
+#clock-date {
+    margin: 0;
+    font-weight: light; 
+}
+
+#clock-time{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: bolder;
+    font-size: 64px;
+}
+
+
+.todo-container {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+
+}
+
+.todo-container div {
+    width: 50%;
+    margin: 10px;
+}
+
+#todo-add-block{
+    height: max-content;
+}
+
+#todo-list {
+    margin-left: 30%;
+    text-align: left;
+}
+
+
+body {
+    text-align: center;
+}
+
+#todo-form input {
+    height: 32px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+}
