@@ -1,0 +1,51 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "title": "범죄도시3",
+        "description": "나쁜 놈들 잡는 데 이유 없고 제한 없다. 커진 판도 시원하게 싹 쓸어버린다!"
+      },
+      {
+        "id": 2,
+        "title": "엘리멘탈",
+        "description": "디즈니·픽사의 놀라운 상상력! 올여름, 세상이 살아 숨 쉰다."
+      },
+      {
+        "id": 3,
+        "title": "여름날 우리",
+        "description": "처음이었다, 사랑이 싹트는 기분. 너에게 풍덩 빠져버렸던 17살의 여름."
+      }
+    ],
+
+    "books":[
+        {
+            "id":1,
+            "cover":"https://image.aladin.co.kr/product/31688/62/cover500/8954699375_2.jpg",
+            "title":"눈부신 안부",
+            "author":"백수린",
+            "description":"적어도 나는 더이상 나의 삶을 방치하지는 않고 있었다. 그렇게 된 것만으로도 조금은 전보다 건강해진 듯한 기분이었다."
+        },
+        {
+            "id":2,
+            "cover":"https://image.aladin.co.kr/product/32026/70/cover500/8954694144_1.jpg",
+            "title":"당신이 보고 싶어하는 세상",
+            "author":"장강명",
+            "description":"종종 타인은 지옥이다. 그리고 어쩌면 그 지옥이 우리가 이해할 수 없는 곳에 있음에 우리는 감사해야 할지도 모른다."
+        },
+
+        {
+            "id":3,
+            "cover":"https://image.aladin.co.kr/product/31955/43/cover500/k372833255_1.jpg",
+            "title":"너무나 많은 여름이",
+            "author":"김연수",
+            "description":"사랑이란 제 쪽에서 타인을 바라볼 때의 감각이었다. (…) 멀어지던 바로 그 순간부터 풍화는 시작되었다."
+        },
+        {
+          "id":4,
+          "cover":"https://image.aladin.co.kr/product/31599/26/cover500/8954692524_2.jpg",
+          "title":"각각의 계절",
+          "author":"권여선",
+          "description":"관심도 간섭도 다 폭력같아. 모욕같고. 그런 것들에 노출되지 않고 안전하게, 고요하게 사는 게 내 목표야."
+      }
+    ]
+}
